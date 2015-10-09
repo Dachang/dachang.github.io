@@ -1,2 +1,2 @@
-Cufon.replace('#menu a, .pagination li, h2', { fontFamily: 'Questrial', hover:true });
+Cufon.replace('#menu a, .tabs a, h2, .button, h3', { fontFamily: 'Myriad Pro', hover:true });
 
