@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "每日三事"
+date:   2015-10-11 19:54:06
+categories: jekyll update
+---
+
+记下每天发生的三件事（按重要程度排）。
+
+从朋友的网站上看到，觉得有意思，所以照搬过来。
+
+####10.11
+
+* Wrote a leave application to Prof.Roundy
+* Helped setting several vpns for some foreign guys
+* Accepted a work inquiry
+
+####10.10
+
+* Learned jekyll
+* Eat some birthday cake (not mine)
+* Went to bar with friends, had fun
+
+####10.9
+
+* Got an important call from my lawyer
+* Send messages to all the followers on creativemarket.com
+* Re-built metaio+unity3D environment
