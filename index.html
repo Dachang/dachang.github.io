@@ -1,23 +1,86 @@
----
-layout: default
----
+<!DOCTYPE = html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>Dachang Liu</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
 
-<div class="home">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:description" content="">
 
-  <h1 class="page-heading">Posts</h1>
+    <!-- Styles -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/hover.css">
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <script src="js/modernizr-2.7.1.js"></script>
 
-</div>
+</head>
+
+<body>
+    <!--Banner-->
+    <header> 
+      <div class="container">
+        <!-- Nav -->
+        <div class="row">
+          <div class="col-xs-6">
+          </div>
+          <div class="col-xs-6 signin text-right navbar-nav">
+            <a href="#pricing" class="scroll">WORK</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#pricing" class="scroll">BLOG</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">ABOUT</a>
+          </div>
+        </div>
+        <!-- Heading -->
+        <div class="row header-info">
+          <div class="col-sm-10 text-left">
+            <h1 class="wow fadeIn">DACHANG LIU <br /> DIGITAL DESIGNER <br /> DEVELOPER</h1>
+            <br />
+            <h4 class="lead wow fadeIn" data-wow-delay="0.5s">I am a student at Tongji University, Shanghai, China.<br>
+            I build digital products, services and more. </h4>
+            <br />
+          </div>
+          <div class="row button-under-header">
+              <div class="col-sm-10 text-left wow fadeInUp" data-wow-delay="0.5s">
+                  <a href="#be-the-first" class="btn btn-secondary btn-lg scroll">HIRE ME</a>
+              </div>
+          </div><!--End Button Row-->  
+        </div>
+      </div>
+    </header>
+
+    <!--Mobile Section-->
+    <section class="mobile-apps">
+      <div class="container">
+        <div class="row header-info index-mobile-apps">
+          <div class="col-sm-10 text-left">
+            <h1 class="wow fadeIn light-bg-text">I MAKE <br /> MOBILE APPS</h1>
+            <br />
+            <h4 class="lead wow fadeIn light-bg-text" data-wow-delay="0.5s">Apple WWDC Scholarship Winner<br>
+            2014 and 2016</h4>
+            <br />
+          </div>
+          <div class="row button-under-header">
+              <div class="col-sm-10 text-left wow fadeInUp" data-wow-delay="0.5s">
+                  <a href="#be-the-first" class="btn btn-dark-bg scroll">VIEW MORE</a>
+              </div>
+          </div><!--End Button Row-->  
+        </div>
+      </div>
+    </section>
+
+    <!-- Javascript -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+    </body>
+</html>
