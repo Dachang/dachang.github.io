@@ -6,7 +6,9 @@
  *
  * Handcrafted with love in Atlanta!
  */
-
+@font-face { font-family: AvenirNext-Regular; src: url('fonts/avenir-next-regular.ttf'); } 
+@font-face { font-family: Avenir Next; src: url('fonts/avenir-next-regular.ttf'); } 
+@font-face { font-family: AkzidenzGroteskBE-Bold; src: url('fonts/akzidenzgroteskbe_bold-webfont.ttf'); } 
 
 /* ==========================================================================
    Global styles
