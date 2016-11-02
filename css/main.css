@@ -304,6 +304,30 @@ a:hover, a:focus {
   height: 640pt;
 }
 
+.car-hmi {
+  overflow: hidden;
+  position: relative;
+  background: url(../img/indexCarHMIBg.jpg) #231f20 no-repeat center center;
+  width: 100%;
+  height: 640pt;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.installation {
+  overflow: hidden;
+  position: relative;
+  background: url(../img/indexInstallationBg.jpg) #231f20 no-repeat center center;
+  width: 100%;
+  height: 640pt;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
 .index-iphone-showcase {
   position: relative;
   top: -210pt;
@@ -334,6 +358,10 @@ a:hover, a:focus {
 
 .index-mobile-apps {
   top: 120pt;
+}
+
+.index-car-hmi {
+  top: 180pt;
 }
 
 .signin {
