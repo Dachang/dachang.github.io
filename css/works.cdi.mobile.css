@@ -44,11 +44,52 @@
   z-index: 2;
 }
 
+.cdi-mobile-interface-first {
+    display: block;
+    position: relative;
+    background-color: white;
+    padding: 20px 10px 60px 10px;
+    width: 100%;
+    height: 640pt;
+    z-index: 2;    
+}
+
+.cdi-mobile-footer-section {
+    display: block;
+    position: relative;
+    background-color: white;
+    padding: 20px 10px 60px 10px;
+    width: 100%;
+    height: 640pt;
+    z-index: 2;   
+}
+
 .cdi-soul-system-features {
     margin-top: 48pt;
-    background-color: blue;
+    padding-left: 60pt;
+    padding-right: 60pt;
     display: flex;
     justify-content: space-between;
+}
+
+.cdi-mobile-interface-first-row {
+    margin-top: 60pt;
+    padding-left: 40pt;
+    padding-right: 40pt;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cdi-mobile-interface-first-row div {
+    white-space: nowrap;
+}
+
+.cdi-soul-system-features-line-two {
+    margin-top: 20pt;
+}
+
+.cdi-soul-system-features div {
+    white-space:nowrap;
 }
 
 .navbar-inverse .navbar-nav > li > a, .navbar-nav a {
@@ -71,6 +112,10 @@
     padding-top: 15px;
 }
 
+.website-logo-bottom {
+    padding-top: 8px;
+}
+
 .cdi-mobile-project-title {
     padding-top: 100pt;
 }
@@ -90,6 +135,21 @@
 
 .cdi-soul-system-title {
     padding-top: 55pt;
+    padding-left: 30pt;
+    padding-right: 30pt;
+}
+
+.cdi-mobile-ios10-logo {
+    padding-top: 78pt;
+    padding-left: 30pt;
+    padding-right: 30pt;
+}
+
+.cdi-mobile-footer-links {
+    margin-top: 204pt;
+    margin-bottom: 28pt;
+    padding-right: 26pt;
+    height: 30pt;
 }
 
 .cdi-mobile-project-title h1 {
@@ -131,6 +191,29 @@
     font-family: 'AvenirNext-Regular';
     font-size: 18px;
     color: white;
+    line-height: 32px;
+}
+
+.cdi-soul-system-feature-single p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 20px;
+}
+
+p.interface-caption {
+    /* Checking events & ne: */
+    padding-top: 10pt;
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: #000000;
+}
+
+.cdi-mobile-ios10-logo p {
+    /* CDI Mobile works per: */
+    font-family: AvenirNext-Regular;
+    font-size: 18px;
+    color: #000000;
     line-height: 32px;
 }
 
