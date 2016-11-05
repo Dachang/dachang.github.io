@@ -109,11 +109,21 @@
 }
 
 .website-logo {
-    padding-top: 15px;
+    padding-top: 8px;
+    /* DACHANG LIU: */
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.07px;    
 }
 
 .website-logo-bottom {
     padding-top: 8px;
+    /* DACHANG LIU: */
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.07px;    
 }
 
 .cdi-mobile-project-title {
