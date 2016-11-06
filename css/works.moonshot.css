@@ -12,10 +12,65 @@
     display: block;
     position: relative;
     background-color: white;
-    padding: 372px 10px 60px 10px;
+    padding: 100pt 10px 60px 10px;
     width: 100%;
     height: 640pt;
     z-index: 2;
+}
+
+.moonshot-project-features {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background-color: white;
+    padding: 64pt 10px 60px 10px;
+    width: 100%;
+    height: 640pt;
+    z-index: 2;
+}
+
+.moonshot-project-interface-intro {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background: url(../img/moonshot-interface-bg.jpg) #231f20 no-repeat center center;
+    padding: 240pt 10px 60px 10px;
+    width: 100%;
+    height: 640pt;
+    z-index: 2;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
+}
+
+.moonshot-project-interface-collection {
+    display: block;
+    position: relative;
+    background-color: black;
+    padding: 64pt 10px 60px 10px;
+    width: 100%;
+    height: 640pt;
+    z-index: 2;    
+}
+
+.moonshot-project-intro-constraint {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.moonshot-project-features-constraint {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.moonshot-project-interface-intro-constraint {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.moonshot-project-feature-row {
+    padding-top: 47pt;
 }
 
 .website-logo {
@@ -58,6 +113,51 @@ a:hover, a:focus, a:active {
 
 .moonshot-project-subtitle h4 {
     color: white;
+}
+
+.moonshot-project-intro h4 {
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 36px;
+    color: black;
+    letter-spacing: 0.17px;
+    line-height: 36px;    
+}
+
+.moonshot-project-intro p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: black;
+    line-height: 32px;
+}
+
+.moonshot-project-features h4 {
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 36px;
+    color: black;
+    letter-spacing: 0.17px;
+    line-height: 36px;    
+}
+
+.moonshot-project-features p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: black;
+    line-height: 32px;
+}
+
+.moonshot-project-interface-intro h4 {
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 36px;
+    color: white;
+    letter-spacing: 0.17px;
+    line-height: 36px;  
+}
+
+.moonshot-project-interface-intro p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: white;
+    line-height: 32px;
 }
 
 .btn-moonshot-video {
