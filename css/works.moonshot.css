@@ -1,0 +1,120 @@
+.moonshot-header {
+    /* Rectangle: */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 640pt;
+}
+
+.moonshot-project-intro {
+    display: block;
+    position: relative;
+    background-color: white;
+    padding: 372px 10px 60px 10px;
+    width: 100%;
+    height: 640pt;
+    z-index: 2;
+}
+
+.website-logo {
+    padding-top: 8px;
+    /* DACHANG LIU: */
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.07px;    
+}
+
+a:hover, a:focus, a:active {
+    color: white;
+}
+
+.moonshot-nav-titles {
+    color: white;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0);
+}
+
+.moonshot-project-title {
+    padding-top: 100pt;
+}
+
+.moonshot-project-subtitle {
+    padding-top: 80pt;
+}
+
+.moonshot-show-video {
+    padding-top: 40pt;
+}
+
+.moonshot-project-title h1 {
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 64px;
+    color: white;
+    letter-spacing: 0.3px;
+    line-height: 72px;
+}
+
+.moonshot-project-subtitle h4 {
+    color: white;
+}
+
+.btn-moonshot-video {
+    font-family: 'AvenirNext-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 1.35;
+    padding: 20px 20px;
+    letter-spacing: 1px;
+}
+
+/* Videos */
+.video-content-constraint {
+    overflow: hidden;
+    display: block;
+    width: 160%;
+    height: 160%;
+    margin-left: -420px;
+    margin-top: -160px;
+    z-index: 0;
+}
+
+.header-unit {
+  height: 1400px;
+  position: relative;
+  /*padding: 20px;*/
+  overflow: hidden;
+  display: block;
+}
+
+#video-container {
+	position: absolute;
+    overflow: hidden;
+}
+#video-container {
+	top:0%;
+	left:0%;
+	height:100%;
+	width:100%;
+	overflow: hidden;
+}
+video {
+	position:absolute;
+	z-index:0;
+}
+video.fillWidth {
+	width: 100%;
+}
+
+.content-before-video {
+    z-index: 1;
+}
+
+.video-mask {
+    z-index: 1;
+    background: rgba(0,0,0,0.75);
+    padding: 20px 10px 60px 10px;
+    position: absolute;
+    height: 640pt;
+    width: 100%;
+}
