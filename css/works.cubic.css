@@ -1,0 +1,146 @@
+.cubic-banner {
+    /* Rectangle: */
+    display: block;
+    position: relative;
+    background-image: linear-gradient(135deg, #ED9A4E 0%, #F3C587 100%);
+    padding: 20px 10px 60px 10px;
+    width: 100%;
+    height: 740pt; 
+    z-index: 3;   
+}
+
+.cubic-intro {
+    display: block;
+    position: relative;
+    background-color: white;
+    padding: 480pt 10px 60px 10px;
+    width: 100%;
+    height: 550pt;
+    z-index: 2;    
+}
+
+.cubic-graphic-programming {
+    display: block;
+    position: relative;
+    background-color: white;
+    padding: 64pt 10px 60px 10px;
+    width: 100%;
+    height: 640pt;
+    z-index: 1;  
+}
+
+.cubic-stacked {
+    display: block;
+    position: relative;
+    background-color: white;
+    padding: 300pt 10px 60px 10px;
+    width: 100%;
+    height: 640pt;
+    z-index: 0;  
+}
+
+.cubic-code-snippet {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background-image: linear-gradient(-45deg, #6A91F6 0%, #38AEF8 100%);
+    padding: 36pt 10px 60px 10px;
+    width: 100%;
+    height: 480pt;
+    z-index: 0;   
+    margin-top: 500pt;   
+}
+
+.cubic-system-features {
+    display: block;
+    position: relative;
+    background-color: white;
+    padding: 64pt 10px 60px 10px;
+    width: 100%;
+    height: 640pt;
+    z-index: 0;  
+}
+
+.website-logo {
+    padding-top: 8px;
+    /* DACHANG LIU: */
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.07px;    
+}
+
+.cubic-interface-banner {
+    padding-top: 80pt;
+}
+
+.cubic-graphic-programming-image {
+    padding-top: 10pt;
+}
+
+.cubic-stacked-image {
+    padding-top: 10pt;
+}
+
+.cubic-code-snippet-image {
+    padding-top: 50pt;
+}
+
+a:hover, a:focus, a:active {
+    color: white;
+}
+
+.cubic-title {
+    padding-top: 80pt;    
+}
+
+.cubic-title h1 {
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 64px;
+    color: white;
+    letter-spacing: 0.3px;
+    line-height: 72px;
+}
+
+.cubic-title p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 24px;
+    color: white;
+    line-height: 36px;
+    padding-top: 20pt;    
+}
+
+.cubic-intro p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: black;
+    line-height: 32px;
+}
+
+.cubic-graphic-programming p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: black;
+    line-height: 32px;
+}
+
+.cubic-stacked p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: black;
+    line-height: 32px;
+}
+
+.cubic-code-snippet p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: white;
+    line-height: 32px;
+}
+
+.cubic-system-features p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: black;
+    line-height: 32px;
+}
