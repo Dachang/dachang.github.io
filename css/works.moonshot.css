@@ -48,10 +48,25 @@
     display: block;
     position: relative;
     background-color: black;
-    padding: 64pt 10px 60px 10px;
+    padding: 119pt 10px 60px 10px;
     width: 100%;
     height: 640pt;
     z-index: 2;    
+}
+
+.moonshot-project-footer {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background: url(../img/moonshot-project-footer-bg.jpg) #231f20 no-repeat center center;
+    padding: 90pt 10px 60px 10px;
+    width: 100%;
+    height: 640pt;
+    z-index: 2;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
 }
 
 .moonshot-project-intro-constraint {
@@ -101,6 +116,21 @@ a:hover, a:focus, a:active {
 
 .moonshot-show-video {
     padding-top: 40pt;
+}
+
+.moonshot-show-video-footer {
+    padding-top: 20pt;
+}
+
+.moonshot-interface-screenshot {
+    padding-top: 20pt;
+}
+
+.moonshot-footer-links {
+    margin-top: 250pt;
+    margin-bottom: 28pt;
+    padding-right: 26pt;
+    height: 30pt;
 }
 
 .moonshot-project-title h1 {
@@ -155,9 +185,35 @@ a:hover, a:focus, a:active {
 
 .moonshot-project-interface-intro p {
     font-family: 'AvenirNext-Regular';
+    font-size: 24px;
+    color: white;
+    line-height: 36px;
+}
+
+.moonshot-project-footer h4 {
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 36px;
+    color: white;
+    letter-spacing: 0.17px;
+    line-height: 36px;      
+}
+
+.moonshot-project-footer p {
+    font-family: 'AvenirNext-Regular';
     font-size: 18px;
     color: white;
-    line-height: 32px;
+    line-height: 32px; 
+    padding-left: 36px;
+    padding-right: 36px; 
+}
+
+.website-logo-bottom {
+    padding-top: 8px;
+    /* DACHANG LIU: */
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.07px;      
 }
 
 .btn-moonshot-video {
