@@ -1,0 +1,214 @@
+.ecar-banner {
+    /* Rectangle: */
+    display: block;
+    position: relative;
+    
+    padding: 20px 10px 60px 10px;
+    width: 100%;
+    height: 640pt;
+    z-index: 3;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.ecar-intro {
+    display: block;
+    position: relative;
+    /* Rectangle 19: */
+    background-color: #F8F8F8;
+    padding: 64pt 10px 60px 10px;
+    margin-top: 40pt;
+    width: 100%;
+    height: 640pt;
+    z-index: 0; 
+}
+
+.ecar-interface-first-row {
+    display: block;
+    position: relative;
+    /* Rectangle 19: */
+    background-color: #F8F8F8;
+    padding: 0 0 0 0;
+    width: 100%;
+    height: 640pt;
+    z-index: 0; 
+}
+
+.ecar-services {
+    display: block;
+    position: relative;
+    /* Rectangle 19: */
+    background-color: white;
+    padding: 64pt 10px 60px 10px;
+    width: 100%;
+    height: 640pt;
+    z-index: 4; 
+}
+
+.ecar-interface-left {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    padding-top: 350pt;
+    height: 640pt;
+}
+
+.ecar-interface-left-second-row {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    padding-top: 920pt;
+    height: 640pt;
+}
+
+.ecar-interface-left-third-row {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    margin-top: -280pt;
+    padding-top: 660pt;
+    height: 640pt;
+}
+
+.ecar-banner-bg {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 640pt;
+    background: url(../img/ecar/ecar-banner-bg.png) white no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover
+}
+
+.ecar-intro-bg {
+    padding-top: 25pt;
+    padding-bottom: 50pt;
+    margin-top: 32pt;
+    background-color: white;
+}
+
+.website-logo {
+    padding-top: 8px;
+    /* DACHANG LIU: */
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.07px;    
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-nav a {
+    color: black;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: black;
+    opacity: 0.6;
+}
+
+.ecar-nav-titles {
+    color: black;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0);
+}
+
+.ecar-banner h1 {
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 64px;
+    color: black;
+    letter-spacing: 0.3px;
+    line-height: 72px;    
+    padding-top: 450pt;
+}
+
+.ecar-banner h4 {
+    font-family: 'AvenirNext-Regular';
+    font-size: 24px;
+    color: black;
+    line-height: 36px;
+    padding-top: 9pt;
+}
+
+.ecar-intro h4 {
+    font-family: 'AvenirNext-Regular';
+    font-size: 36px;
+    color: black;
+    line-height: 48px;
+    padding-top: 9pt;    
+}
+
+.ecar-intro p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: black;
+    line-height: 32px;
+    padding-top: 9pt;    
+}
+
+.ecar-paragraph-right h4 {
+    font-family: 'AvenirNext-Regular';
+    font-size: 36px;
+    color: black;
+    line-height: 48px;
+    padding-top: 120pt;
+    padding-left: 80pt;
+    padding-right: 120pt;       
+}
+
+.ecar-paragraph-right p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 24px;
+    color: black;
+    line-height: 36px;
+    padding-top: 23pt; 
+    padding-left: 80pt;
+    padding-right: 120pt;        
+}
+
+.ecar-paragraph-right-third-row h4 {
+    font-family: 'AvenirNext-Regular';
+    font-size: 36px;
+    color: black;
+    line-height: 48px;
+    margin-top: -120pt;
+    padding-left: 80pt;
+    padding-right: 120pt;       
+}
+
+.ecar-paragraph-right-third-row p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 24px;
+    color: black;
+    line-height: 36px;
+    padding-top: 23pt; 
+    padding-left: 80pt;
+    padding-right: 120pt;        
+}
+
+
+.ecar-paragraph-left h4 {
+    font-family: 'AvenirNext-Regular';
+    font-size: 36px;
+    color: black;
+    line-height: 48px;
+    padding-top: 120pt;
+    padding-left: 120pt;
+    padding-right: 120pt;       
+}
+
+.ecar-paragraph-left p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 24px;
+    color: black;
+    line-height: 36px;
+    padding-top: 23pt; 
+    padding-left: 120pt;
+    padding-right: 120pt;        
+}

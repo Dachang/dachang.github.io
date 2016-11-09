@@ -4347,4 +4347,9 @@
   height: 25px;
 }
 
+.index-nav-titles {
+    color: black;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0);
+}
+
 /*# sourceMappingURL=hover.css.map */

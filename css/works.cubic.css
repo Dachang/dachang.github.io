@@ -92,6 +92,11 @@
     letter-spacing: 0.07px;    
 }
 
+.cubic-nav-titles {
+    color: white;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0);    
+}
+
 .cubic-interface-banner {
     padding-top: 80pt;
 }
