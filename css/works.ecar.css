@@ -3,7 +3,7 @@
     display: block;
     position: relative;
     
-    padding: 20px 10px 60px 10px;
+    /*padding: 20px 10px 60px 10px;*/
     width: 100%;
     height: 640pt;
     z-index: 3;
@@ -40,11 +40,26 @@
     display: block;
     position: relative;
     /* Rectangle 19: */
-    background-color: white;
+    background: url(../img/ecar/ecar-services-bg.png) white no-repeat center center;
     padding: 64pt 10px 60px 10px;
     width: 100%;
     height: 640pt;
-    z-index: 4; 
+    z-index: 4;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;     
+}
+
+.ecar-footer {
+    display: block;
+    position: relative;
+    /* Rectangle 19: */
+    background-color: white;
+    padding: 120pt 10px 60px 10px;
+    width: 100%;
+    height: 640pt;
+    z-index: 5;     
 }
 
 .ecar-interface-left {
@@ -80,11 +95,12 @@
     position: relative;
     width: 100%;
     height: 640pt;
+    padding: 20px 10px 60px 10px;
     background: url(../img/ecar/ecar-banner-bg.png) white no-repeat center center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover
+    -o-background-size: cover;
 }
 
 .ecar-intro-bg {
@@ -92,6 +108,19 @@
     padding-bottom: 50pt;
     margin-top: 32pt;
     background-color: white;
+}
+
+.ecar-services-bg {
+    padding-top: 25pt;
+    padding-bottom: 50pt;
+    margin-top: 50pt;
+    margin-left: 40pt;
+    margin-right: 40pt;
+    background-color: white;
+}
+
+.ecar-service-icons {
+    padding-top: 50pt;
 }
 
 .website-logo {
@@ -177,7 +206,7 @@
     font-size: 36px;
     color: black;
     line-height: 48px;
-    margin-top: -120pt;
+    margin-top: -150pt;
     padding-left: 80pt;
     padding-right: 120pt;       
 }
@@ -211,4 +240,57 @@
     padding-top: 23pt; 
     padding-left: 120pt;
     padding-right: 120pt;        
+}
+
+.ecar-services h4 {
+    font-family: 'AvenirNext-Regular';
+    font-size: 36px;
+    color: black;
+    line-height: 48px;
+}
+
+.ecar-services-bg h5 {
+    font-family: 'AvenirNext-Regular';
+    font-size: 24px;
+    color: black;
+    line-height: 36px;
+    padding-top: 9pt;
+}
+
+.ecar-services-bg p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: black;
+    line-height: 32px;
+    padding-top: 9pt; 
+    padding-left: 20pt;
+    padding-right: 20pt; 
+}
+
+.ecar-footer p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 24px;
+    color: black;
+    line-height: 36px;
+    padding-top: 9pt;
+}
+
+.btn-pull-request {
+    padding: 20px 18px;
+}
+
+.website-logo-bottom {
+    padding-top: 8px;
+    /* DACHANG LIU: */
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.07px;    
+}
+
+.ecar-footer-links {
+    margin-top: 250pt;
+    margin-bottom: 28pt;
+    padding-right: 26pt;
+    height: 30pt;
 }
