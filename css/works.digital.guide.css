@@ -88,6 +88,11 @@
     opacity: 0.6;
 }
 
+.navbar-inverse .navbar-nav > li > a:active {
+    color: black;
+    opacity: 0.6;
+}
+
 .digital-guide-nav-titles {
     color: black;
     box-shadow: 0px 0px 40px 0px rgba(0,0,0,0);    

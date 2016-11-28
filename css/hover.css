@@ -1168,6 +1168,7 @@
   transition-property: transform;
 }
 .hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {
+  color: #9012FE;
   -webkit-transform: translateX(8px);
   transform: translateX(8px);
 }
