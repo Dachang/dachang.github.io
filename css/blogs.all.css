@@ -26,6 +26,22 @@
     padding-top: 24pt;
 }
 
+.website-logo-bottom {
+    padding-top: 8px;
+    /* DACHANG LIU: */
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.07px;    
+}
+
+.all-blogs-footer-links {
+    margin-top: 64pt;
+    margin-bottom: 28pt;
+    /*padding-right: 26pt;*/
+    height: 30pt;
+}
+
 .blog-entry a {
     font-family: 'AkzidenzGroteskBE-Bold';
     font-size: 48px;

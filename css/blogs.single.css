@@ -1,0 +1,158 @@
+.single-blogs-banner {
+    /* Rectangle: */
+    display: block;
+    position: relative;
+    background-image: white;
+    padding: 20px 10px 60px 10px;
+    width: 100%;
+    height: 640pt; 
+    z-index: 3;   
+}
+
+.single-blogs-title {
+    padding-top: 62pt;
+    padding-bottom: 18pt;
+}
+
+.single-blogs-paragraph-no-title {
+    padding-top: 36pt;
+}
+
+.single-blogs-video {
+    padding-top: 37pt;
+}
+
+.single-blogs-paragraph-with-title {
+    padding-top: 36pt;
+}
+
+.single-blogs-footage {
+    padding-top: 36pt;
+}
+
+.single-blogs-title h1 {
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 64px;
+    color: black;
+    letter-spacing: 0.3px;
+    line-height: 72px;
+    margin-bottom: 0pt;
+}
+
+.single-blogs-title h4 {
+    /* 2016 - 09 - 01: */
+    font-family: 'AvenirNext-Regular';
+    font-size: 24px;
+    color: #737473;
+    line-height: 36px;
+}
+
+.single-blogs-paragraph-no-title p {
+    /* Figma is a design to: */
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: #000000;
+    line-height: 36px;
+}
+
+.single-blogs-paragraph-with-title h4 {
+    /* Constraint System: */
+    font-family: 'AvenirNext-Bold';
+    font-size: 36px;
+    color: #000000;
+    line-height: 48px;
+}
+
+.single-blogs-paragraph-with-title p {
+    /* Figma is a design to: */
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: #000000;
+    line-height: 36px;
+    padding-top: 12pt;
+}
+
+.single-blogs-paragraph-with-title h5 {
+    /* Generating layouts f: */
+    font-family: 'AvenirNext-Regular';
+    font-size: 14px;
+    color: #737473;
+    line-height: 24px;
+    padding-top: 6pt;
+}
+
+.single-blogs-paragraph-with-title img {
+    width: 100%;
+    padding-top: 36pt;
+}
+
+.single-blogs-footage p {
+    /* Figma is a design to: */
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: #737473;
+    line-height: 36px;
+    padding-top: 12pt;
+}
+
+.website-logo {
+    padding-top: 8px;
+    /* DACHANG LIU: */
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 16px;
+    color: black;
+    letter-spacing: 0.07px;    
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-nav a {
+    color: black;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: black;
+    opacity: 0.6;
+}
+
+.navbar-inverse .navbar-nav > li > a:active {
+    color: black;
+    opacity: 0.6;
+}
+
+.single-blogs-nav-titles {
+    color: black;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0);    
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.website-logo-bottom {
+    padding-top: 8px;
+    /* DACHANG LIU: */
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.07px;    
+}
+
+.single-blogs-footer-links {
+    margin-top: 64pt;
+    margin-bottom: 28pt;
+    /*padding-right: 26pt;*/
+    height: 30pt;
+}
