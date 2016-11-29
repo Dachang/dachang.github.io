@@ -1,5 +1,6 @@
 .digital-guide-banner {
     /* Rectangle: */
+    overflow: hidden;
     display: block;
     position: relative;
     background-image: white;
@@ -23,6 +24,7 @@
 
 .digital-guide-installation-structure {
     /* Rectangle: */
+    overflow: hidden;
     display: block;
     position: relative;
     background-image: white;
