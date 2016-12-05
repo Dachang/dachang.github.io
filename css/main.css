@@ -812,10 +812,6 @@ footer {
     height: 960pt;
   }
 
-  .banner a {
-    padding-top: 80pt;
-  }
-
   h4, .lead {/* I am a student at To: */
     font-family: 'AvenirNext-Regular', sans-serif;
     font-size: 24px;
@@ -825,13 +821,13 @@ footer {
 
   .button-under-header {
     position: relative;
+    top: 41pt;
     bottom: 0;
     width: 100%;
     left: 0;
     right: 0;
     margin-left: 0px;
     margin-bottom: 0px;
-    padding-top: 120pt;
   }
 
   .mobile-apps {
@@ -844,6 +840,10 @@ footer {
 
   .light-bg-text {
     color: #000000;
+  }
+
+  .btn-for-mac-high-res {
+    padding-top: 80pt;
   }
 }
 
