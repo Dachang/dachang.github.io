@@ -809,7 +809,7 @@ footer {
     background-image: linear-gradient(315deg, #984ED8 0%, #694ED8 25%, #3826B0 100%);
     padding: 20px 10px 60px 10px;
     width: 100%;
-    height: 900pt;
+    height: 960pt;
   }
 
   h4, .lead {/* I am a student at To: */
@@ -819,7 +819,17 @@ footer {
     padding-top: 70pt;
   }
 
-  
+  .button-under-header {
+    position: relative;
+    top: 41pt;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-top: 60pt;
+  }
 }
 
 
