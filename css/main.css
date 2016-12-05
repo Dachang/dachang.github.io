@@ -809,7 +809,7 @@ footer {
     background-image: linear-gradient(315deg, #984ED8 0%, #694ED8 25%, #3826B0 100%);
     padding: 20px 10px 60px 10px;
     width: 100%;
-    height: 960pt;
+    height: 1000pt;
   }
 
   .button-under-header {
@@ -828,7 +828,13 @@ footer {
     position: relative;
     background-color: white;
     width: 100%;
-    height: 960pt;
+    height: 1000pt;
+  }
+
+  .index-iphone-showcase {
+    position: relative;
+    top: -100pt;
+    right: -500pt;
   }
 
   .light-bg-text {
