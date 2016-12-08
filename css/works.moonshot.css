@@ -274,3 +274,95 @@ video.fillWidth {
     height: 640pt;
     width: 100%;
 }
+
+/* media queries */
+/* ------------------------------------------------------------------------- */
+
+/* mobile small (iphone 3/4/5) ----------- */
+@media only screen and (max-width : 320px)  {
+
+
+}
+/* mobile large (android) ----------- */
+@media only screen and (max-width : 685px)  {
+	
+}
+/* ipad portrait/landscape ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+
+}
+/* ipad portrait ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)  {
+	
+}
+/* ipad landscape ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)  {
+
+
+}
+/* small displays ----------- */
+@media only screen and (min-width : 600px)  {
+	
+}
+
+/* 13 inch displays ----------- */
+@media only screen and (min-width : 1224px)  {
+	
+}
+/* 24 inch iMac ----------- */
+@media only screen and (min-width : 1600px) {
+	
+}
+/* 27 inch iMac ----------- */
+@media only screen and (min-width : 2400px) {
+
+    .moonshot-header {
+        height: 800pt;
+    }
+
+    .video-mask {
+        height: 800pt;
+    }
+
+    .moonshot-project-title {
+        padding-top: 160pt;
+    }
+
+    .video-content-constraint {
+        overflow: hidden;
+        display: block;
+        width: 160%;
+        height: 160%;
+        margin-left: -420px;
+        margin-top: -300px;
+        z-index: 0;
+    }
+    
+    .moonshot-project-interface-intro {
+        background: url(../img/car_index_large.jpg) #231f20 no-repeat center center;
+        height: 1040pt;
+    }
+
+    .moonshot-project-interface-intro-constraint {
+        padding-top: 120pt;
+    }
+
+    .moonshot-project-footer {
+        height: 1040pt;
+    }
+
+    .moonshot-h4-for-large-mac {
+        padding-top: 180pt;
+    }
+
+    .moonshot-project-footer p {
+        font-size: 24px;
+        line-height: 36px; 
+        padding-left: 0px;
+        padding-right: 0px; 
+    }    
+
+    .moonshot-footer-links {
+        margin-top: 425pt;
+    }
+}
