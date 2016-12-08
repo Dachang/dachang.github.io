@@ -19,7 +19,7 @@
     /* Rectangle 19: */
     background-color: #F8F8F8;
     padding: 64pt 10px 60px 10px;
-    margin-top: 40pt;
+    /*margin-top: 40pt;*/
     width: 100%;
     height: 640pt;
     z-index: 0; 
@@ -301,4 +301,61 @@
     margin-bottom: 28pt;
     /*padding-right: 26pt;*/
     height: 30pt;
+}
+
+/* media queries */
+/* ------------------------------------------------------------------------- */
+
+/* mobile small (iphone 3/4/5) ----------- */
+@media only screen and (max-width : 320px)  {
+
+
+}
+/* mobile large (android) ----------- */
+@media only screen and (max-width : 685px)  {
+	
+}
+/* ipad portrait/landscape ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+
+}
+/* ipad portrait ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)  {
+	
+}
+/* ipad landscape ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)  {
+
+
+}
+/* small displays ----------- */
+@media only screen and (min-width : 600px)  {
+	
+}
+
+/* 13 inch displays ----------- */
+@media only screen and (min-width : 1224px)  {
+	
+}
+/* 24 inch iMac ----------- */
+@media only screen and (min-width : 1600px) {
+	
+}
+/* 27 inch iMac ----------- */
+@media only screen and (min-width : 2400px) {
+    .ecar-banner-bg {
+        background: url(../img/ecar/ecar-banner-bg-large.jpg) white no-repeat center center;
+    }
+
+    .ecar-paragraph-right-for-large-mac p {
+        margin-right: 200pt;
+    }
+
+    .ecar-paragraph-left-for-large-mac h4 {
+        margin-left: 120pt;
+    }
+
+    .ecar-paragraph-left-for-large-mac p {
+        margin-left: 120pt;
+    }
 }
