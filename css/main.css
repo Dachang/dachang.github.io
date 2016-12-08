@@ -831,6 +831,23 @@ footer {
     height: 1040pt;
   }
 
+  .car-hmi {
+    background: url(../img/car_index_large.jpg) #231f20 no-repeat center center;
+    height: 1040pt;
+  }
+
+  .installation {
+    height: 1040pt;
+  }
+
+  .footer-section  {
+    height: 1040pt;
+  }
+
+  .footer-links {
+    margin-top: 433pt;
+  }
+
   .index-iphone-showcase {
     position: relative;
     top: -260pt;
