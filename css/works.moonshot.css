@@ -33,7 +33,7 @@
     overflow: hidden;
     display: block;
     position: relative;
-    background: url(../img/moonshot-interface-bg.jpg) #231f20 no-repeat center center;
+    background: url(../img/car_index_large.jpg) #231f20 no-repeat center center;
     padding: 240pt 10px 60px 10px;
     width: 100%;
     height: 640pt;
@@ -317,11 +317,11 @@ video.fillWidth {
 @media only screen and (min-width : 2400px) {
 
     .moonshot-header {
-        height: 800pt;
+        height: 825pt;
     }
 
     .video-mask {
-        height: 800pt;
+        height: 825pt;
     }
 
     .moonshot-project-title {
@@ -333,7 +333,7 @@ video.fillWidth {
         display: block;
         width: 160%;
         height: 160%;
-        margin-left: -420px;
+        margin-left: -680px;
         margin-top: -300px;
         z-index: 0;
     }
