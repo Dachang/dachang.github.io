@@ -772,10 +772,7 @@ footer {
 }
 /* mobile large (android) ----------- */
 @media only screen and (max-width : 685px)  {
-    body {
-      transform: scale(0.6);
-      transform-origin: 0% 0%;
-    }	
+
 }
 /* ipad portrait/landscape ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
