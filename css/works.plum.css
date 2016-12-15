@@ -6,7 +6,31 @@
     background-image: white;
     padding: 20px 10px 60px 10px;
     width: 100%;
-    height: 1400pt; 
+    height: 1325pt; 
+    z-index: 3;   
+}
+
+.plum-project-intro {
+    /* Rectangle: */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background-image: white;
+    padding: 20px 10px 60px 10px;
+    width: 100%;
+    height: 900pt; 
+    z-index: 3;   
+}
+
+.plum-footer {
+    /* Rectangle: */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background-image: white;
+    padding: 20px 10px 60px 10px;
+    width: 100%;
+    height: 640pt; 
     z-index: 3;   
 }
 
@@ -68,6 +92,43 @@
     padding-top: 10pt;
 }
 
+.project-intro-block h4 {
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 36px;
+    color: black;
+    letter-spacing: 0.17px;
+    line-height: 36px;
+}
+
+.project-intro-block {
+    padding-top: 100pt;
+}
+
+.project-intro-block p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: black;
+    line-height: 36px;
+}
+
+.project-intro-text {
+    padding-left: 87pt;
+    padding-top: 30pt;
+}
+
+.plum-footer p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 24px;
+    color: black;
+    line-height: 36px;
+    padding-top: 30pt;
+    padding-left: 15pt;
+}
+
+.plum-footer-description {
+    padding-top: 90pt;
+}
+
 /*.plum-gif-left {
     margin-left: -25pt;
 }*/
@@ -94,4 +155,25 @@
 
 .plum-gif-group-second-row {
     padding-top: 58pt;
+}
+
+.plum-footer-image {
+    padding-top: 50pt;
+    padding-left: 100pt;
+}
+
+.plum-footer-links {
+    margin-top: 230pt;
+    margin-bottom: 28pt;
+    /*padding-right: 26pt;*/
+    height: 30pt;
+}
+
+.website-logo-bottom {
+    padding-top: 8px;
+    /* DACHANG LIU: */
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.07px;    
 }
