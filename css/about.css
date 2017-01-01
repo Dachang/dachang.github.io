@@ -1,0 +1,20 @@
+.about-entry h3 {
+    /* Figma is a design to: */
+    font-family: 'AvenirNext-Regular';
+    font-size: 36px;
+    color: #000000;
+    line-height: 48px;
+    padding-top: 12pt;
+}
+
+.about-entry p {
+    /* Figma is a design to: */
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: #737473;
+    line-height: 36px;
+}
+
+.single-blogs-paragraph-with-title p {
+    padding-top: 0;
+}
