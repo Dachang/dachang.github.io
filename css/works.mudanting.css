@@ -1,0 +1,139 @@
+.mudanting-banner {
+    display: block;
+    position: relative;
+    background: url(../img/mudanting/mudanting-banner-bg.png) #231f20 no-repeat center center;
+    padding: 20px 10px 60px 10px;
+    width: 100%;
+    height: 640pt; 
+    z-index: 3;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;      
+}
+
+.mudanting-intro {
+    display: block;
+    position: relative;
+    padding: 20px 10px 60px 10px;
+    width: 100%;
+    height: 292pt; 
+    z-index: 3;   
+}
+
+.mudanting-gallery-row {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding: 20px 10px 60px 10px;
+    width: 100%;
+    height: 610pt; 
+    z-index: 3; 
+}
+
+.mudanting-footer {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background: url(../img/mudanting/mudanting-footer-bg.png) #231f20 no-repeat center center;    
+    padding: 20px 10px 60px 10px;
+    width: 100%;
+    height: 640pt; 
+    z-index: 3; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+}
+
+.website-logo {
+    padding-top: 8px;
+    /* DACHANG LIU: */
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.07px;
+}
+
+.mudanting-nav-titles {
+    color: white;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0);    
+}
+
+a:hover, a:focus, a:active {
+    color: white;
+}
+
+.mudanting-banner h1 {
+    font-family: 'AvenirNext-Thin';
+    font-size: 64px;
+    color: white;
+    letter-spacing: 0.3px;
+    line-height: 72px;
+    padding-top: 380pt;
+}
+
+.mudanting-banner p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 24px;
+    color: white;
+    line-height: 36px;
+    padding-top: 6pt; 
+}
+
+.mudanting-intro h4 {
+    font-family: 'AvenirNext-Regular';
+    font-size: 36px;
+    color: black;
+    line-height: 48px;
+    padding-top: 25pt;
+}
+
+.mudanting-intro p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: black;
+    line-height: 32px;
+    padding-top: 10pt;
+}
+
+.mudanting-gallery-row-single {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mudanting-gallery-row p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 14px;
+    color: black;
+    line-height: 28px;
+    padding-top: 15pt;
+}
+
+.mudanting-footer p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 24px;
+    color: white;
+    line-height: 36px;
+    padding-top: 240pt;  
+}
+
+.mudanting-button {
+    padding: 20px 22px;
+}
+
+.website-logo-bottom {
+    padding-top: 8px;
+    /* DACHANG LIU: */
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.07px;      
+}
+
+.mudanting-footer-links {
+    margin-top: 220pt;
+    margin-bottom: 28pt;
+    /*padding-right: 26pt;*/
+    height: 30pt;
+}
