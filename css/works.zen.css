@@ -1,0 +1,196 @@
+.zen-banner {
+    /*overflow: hidden;*/
+    display: block;
+    position: relative;
+    padding: 20px 10px 60px 10px;
+    width: 100%;
+    height: 800pt; 
+    z-index: 3; 
+}
+
+.zen-components {
+    display: block;
+    position: relative;
+    padding: 20px 10px 60px 10px;
+    width: 100%;
+    height: 640pt; 
+    z-index: 3; 
+}
+
+.zen-scheme {
+    display: block;
+    position: relative;
+    padding: 20px 10px 60px 10px;
+    width: 100%;
+    height: 150pt; 
+    z-index: 2; 
+}
+
+.zen-footer {
+    display: block;
+    position: relative;
+    background: url(../img/zen/zen-footer-bg.jpeg) #231f20 no-repeat center center;
+    background-color: black;
+    padding: 20px 10px 60px 10px;
+    width: 100%;
+    height: 1442pt; 
+    z-index: 0; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;  
+}
+
+.website-logo {
+    padding-top: 8px;
+    /* DACHANG LIU: */
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 16px;
+    color: black;
+    letter-spacing: 0.07px;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-nav a {
+    color: black;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: black;
+    opacity: 0.6;
+}
+
+.navbar-inverse .navbar-nav > li > a:active {
+    color: black;
+    opacity: 0.6;
+}
+
+.zen-nav-titles {
+    color: black;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0);    
+}
+
+.zen-banner h1 {
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 64px;
+    color: black;
+    letter-spacing: 0.3px;
+    line-height: 72px;
+    padding-top: 52pt;
+}
+
+.what-is-zen {
+    background: #30C861;
+    padding-top: 20pt;
+    padding-left: 30pt;
+    padding-right: 20pt;
+    padding-bottom: 36pt;
+    margin-top: 55pt;
+}
+
+.what-is-zen h4 {
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 36px;
+    color: white;
+    letter-spacing: 0.17px;
+    line-height: 36px;  
+}
+
+.what-is-zen p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: white;
+    line-height: 32px;
+    padding-top: 15pt;
+}
+
+.zen-live-image {
+    padding-left: 0;
+    margin-top: 55pt;
+}
+
+.zen-comp-image {
+    padding-left: 0;
+    margin-top: 30pt;
+}
+
+.zen-comp-text {
+    background: #1895FF;
+    padding-top: 20pt;
+    padding-left: 30pt;
+    padding-right: 20pt;
+    padding-bottom: 36pt;
+    margin-top: 30pt;
+    margin-left: -50pt;
+}
+
+.zen-scheme-text {
+    background: #F8E81C;
+    padding-top: 20pt;
+    padding-left: 30pt;
+    padding-right: 20pt;
+    padding-bottom: 36pt;
+    margin-top: -150pt;
+}
+
+.zen-comp-text h4 {
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 36px;
+    color: white;
+    letter-spacing: 0.17px;
+    line-height: 36px;  
+}
+
+.zen-comp-text p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: white;
+    line-height: 32px;
+    padding-top: 15pt;
+}
+
+.zen-scheme-text h4 {
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 36px;
+    color: black;
+    letter-spacing: 0.17px;
+    line-height: 36px;  
+}
+
+.zen-scheme-text p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 18px;
+    color: black;
+    line-height: 32px;
+    padding-top: 15pt;
+}
+
+.zen-footer p {
+    font-family: 'AvenirNext-Regular';
+    font-size: 24px;
+    color: white;
+    line-height: 36px;
+    padding-top: 380pt; 
+}
+
+.zen-footer-links {
+    margin-top: 790pt;
+    margin-bottom: 28pt;
+    /*padding-right: 26pt;*/
+    height: 30pt;
+}
+
+.website-logo-bottom {
+    padding-top: 8px;
+    /* DACHANG LIU: */
+    font-family: 'AkzidenzGroteskBE-Bold';
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.07px;      
+}
+
+.website-logo-bottom a:hover {
+    color: white;
+}
+
