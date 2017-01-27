@@ -791,7 +791,50 @@ footer {
 }
 /* 24 inch iMac ----------- */
 @media only screen and (min-width : 1600px) {
-	
+  .banner {
+  /* Rectangle: */
+    display: block;
+    position: relative;
+    background-image: linear-gradient(315deg, #984ED8 0%, #694ED8 25%, #3826B0 100%);
+    padding: 20px 10px 60px 10px;
+    width: 100%;
+    height: 780pt;
+  }
+
+  .mobile-apps {
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 780pt;
+  }
+
+  .car-hmi {
+    background: url(../img/car_index_large.jpg) #231f20 no-repeat center center;
+    height: 780pt;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .installation {
+    height: 780pt;
+  }
+
+  .footer-section  {
+    height: 780pt;
+  }
+
+  .footer-links {
+    margin-top: 400pt;
+  }
+
+  .index-iphone-showcase {
+    position: relative;
+    top: -180pt;
+    right: -500pt;
+  }
 }
 /* 27 inch iMac ----------- */
 @media only screen and (min-width : 2400px) {
