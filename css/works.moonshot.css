@@ -311,7 +311,48 @@ video.fillWidth {
 }
 /* 24 inch iMac ----------- */
 @media only screen and (min-width : 1600px) {
-	
+    .moonshot-header {
+        height: 780pt;
+    }
+
+    .video-mask {
+        height: 780pt;
+    }
+
+    .moonshot-project-title {
+        padding-top: 160pt;
+    }
+
+    .video-content-constraint {
+        overflow: hidden;
+        display: block;
+        width: 160%;
+        height: 160%;
+        margin-left: -420px;
+        margin-top: -210px;
+        z-index: 0;
+    }
+
+    .moonshot-project-interface-intro {
+        background: url(../img/car_index_large.jpg) #231f20 no-repeat center center;
+        height: 780pt;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .moonshot-project-footer {
+        height: 780pt;
+    }
+
+    .moonshot-h4-for-large-mac {
+        padding-top: 100pt;
+    }
+
+    .moonshot-footer-links {
+        margin-top: 280pt;
+    }
 }
 /* 27 inch iMac ----------- */
 @media only screen and (min-width : 2400px) {
