@@ -244,3 +244,79 @@ a:hover, a:focus, a:active {
     color: black;
 }
 
+/* media queries */
+/* ------------------------------------------------------------------------- */
+
+/* mobile small (iphone 3/4/5) ----------- */
+@media only screen and (max-width : 320px)  {
+
+
+}
+/* mobile large (android) ----------- */
+@media only screen and (max-width : 685px)  {
+	
+}
+/* ipad portrait/landscape ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+
+}
+/* ipad portrait ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)  {
+	
+}
+/* ipad landscape ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)  {
+
+
+}
+/* small displays ----------- */
+@media only screen and (min-width : 600px)  {
+	
+}
+
+/* 13 inch displays ----------- */
+@media only screen and (min-width : 1224px)  {
+	
+}
+/* 24 inch iMac ----------- */
+@media only screen and (min-width : 1600px) {
+    .lighting-room-banner {
+        height: 780pt;
+    }
+
+    .lighting-room-title {
+        padding-top: 80pt;
+    }
+
+    .lighting-room-show-demo {
+        height: 1600pt;
+    }
+
+    .lighting-room-footer-links {
+        margin-top: 1312pt;
+        margin-bottom: 28pt;
+        /*padding-right: 26pt;*/
+        height: 30pt;
+    }
+}
+/* 27 inch iMac ----------- */
+@media only screen and (min-width : 2400px) {
+    .lighting-room-banner {
+        height: 1040pt;
+    }
+
+    .lighting-room-title {
+        padding-top: 210pt;
+    }
+
+    .lighting-room-show-demo {
+        height: 1600pt;
+    }
+
+    .lighting-room-footer-links {
+        margin-top: 1312pt;
+        margin-bottom: 28pt;
+        /*padding-right: 26pt;*/
+        height: 30pt;
+    }
+}
