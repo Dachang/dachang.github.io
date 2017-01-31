@@ -222,7 +222,17 @@
 }
 /* 24 inch iMac ----------- */
 @media only screen and (min-width : 1600px) {
-	
+    .digital-guide-intro {
+        height: 780pt;
+    }
+
+    .digital-guide-footer {
+        height: 780pt;
+    }
+
+    .digital-guide-footer-links {
+        margin-top: 320pt;
+    }
 }
 /* 27 inch iMac ----------- */
 @media only screen and (min-width : 2400px) {

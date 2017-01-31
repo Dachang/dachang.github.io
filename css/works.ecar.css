@@ -339,7 +339,25 @@
 }
 /* 24 inch iMac ----------- */
 @media only screen and (min-width : 1600px) {
-	
+    .ecar-banner-bg {
+        background: url(../img/ecar/ecar-banner-bg-large.jpg) white no-repeat center center;
+    }
+
+    .ecar-paragraph-right-for-large-mac p {
+        margin-right: 200pt;
+    }
+
+    .ecar-paragraph-right-for-large-mac h4 {
+        margin-right: 200pt;
+    }
+
+    .ecar-paragraph-left-for-large-mac h4 {
+        margin-left: 120pt;
+    }
+
+    .ecar-paragraph-left-for-large-mac p {
+        margin-left: 120pt;
+    }	
 }
 /* 27 inch iMac ----------- */
 @media only screen and (min-width : 2400px) {
