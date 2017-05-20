@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+
   //------------------------------------//
   //Navbar//
   //------------------------------------//
@@ -43,3 +44,10 @@ $(document).ready(function(){
   $('img').on('dragstart', function(event) { event.preventDefault(); });
 
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  particleground(document.getElementById('index-banner-id'), {
+    dotColor: '#FFF',
+    lineColor: '#FFF'
+  });
+}, false);
