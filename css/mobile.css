@@ -1,3 +1,9 @@
+@font-face { font-family: 'AvenirNext-Regular'; src: url('../fonts/avenir-next-regular.ttf'); }
+@font-face { font-family: 'AvenirNext-Bold'; src: url('../fonts/avenir-next-bold.ttf'); }
+@font-face { font-family: 'AvenirNext-Thin'; src: url('../fonts/avenir-next-thin.ttf'); }
+@font-face { font-family: 'Avenir Next'; src: url('../fonts/avenir-next-regular.ttf'); }
+@font-face { font-family: 'AkzidenzGroteskBE-Bold'; src: url('../fonts/akzidenzgroteskbe_bold-webfont.ttf'); }
+
 .banner {
 /* Rectangle: */
   display: block;
