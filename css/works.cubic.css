@@ -5,8 +5,8 @@
     background-image: linear-gradient(135deg, #ED9A4E 0%, #F3C587 100%);
     padding: 20px 10px 60px 10px;
     width: 100%;
-    height: 740pt; 
-    z-index: 3;   
+    height: 740pt;
+    z-index: 3;
 }
 
 .cubic-intro {
@@ -16,7 +16,7 @@
     padding: 480pt 10px 60px 10px;
     width: 100%;
     height: 550pt;
-    z-index: 2;    
+    z-index: 2;
 }
 
 .cubic-graphic-programming {
@@ -26,7 +26,7 @@
     padding: 64pt 10px 60px 10px;
     width: 100%;
     height: 640pt;
-    z-index: 1;  
+    z-index: 1;
 }
 
 .cubic-stacked {
@@ -36,7 +36,7 @@
     padding: 300pt 10px 60px 10px;
     width: 100%;
     height: 640pt;
-    z-index: 0;  
+    z-index: 0;
 }
 
 .cubic-code-snippet {
@@ -47,8 +47,8 @@
     padding: 36pt 10px 60px 10px;
     width: 100%;
     height: 480pt;
-    z-index: 0;   
-    margin-top: 500pt;   
+    z-index: 0;
+    margin-top: 500pt;
 }
 
 .cubic-system-features {
@@ -58,7 +58,7 @@
     padding: 64pt 10px 60px 10px;
     width: 100%;
     height: 640pt;
-    z-index: 0;  
+    z-index: 0;
 }
 
 .cubic-modules {
@@ -70,7 +70,8 @@
     margin-top: 40pt;
     width: 100%;
     height: 640pt;
-    z-index: 0; 
+    z-index: 0;
+    overflow: hidden;
 }
 
 .cubic-footer {
@@ -80,7 +81,7 @@
     padding: 120pt 10px 60px 10px;
     width: 100%;
     height: 640pt;
-    z-index: 0;  
+    z-index: 0;
 }
 
 .website-logo {
@@ -89,12 +90,12 @@
     font-family: 'AkzidenzGroteskBE-Bold';
     font-size: 16px;
     color: white;
-    letter-spacing: 0.07px;    
+    letter-spacing: 0.07px;
 }
 
 .cubic-nav-titles {
     color: white;
-    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0);    
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0);
 }
 
 .cubic-interface-banner {
@@ -134,7 +135,7 @@
     font-family: 'AkzidenzGroteskBE-Bold';
     font-size: 16px;
     color: #000000;
-    letter-spacing: 0.07px;    
+    letter-spacing: 0.07px;
 }
 
 a:hover, a:focus, a:active {
@@ -146,7 +147,7 @@ a:hover, a:focus, a:active {
 }
 
 .cubic-title {
-    padding-top: 80pt;    
+    padding-top: 80pt;
 }
 
 .cubic-title h1 {
@@ -162,7 +163,7 @@ a:hover, a:focus, a:active {
     font-size: 24px;
     color: white;
     line-height: 36px;
-    padding-top: 20pt;    
+    padding-top: 20pt;
 }
 
 .cubic-intro p {
