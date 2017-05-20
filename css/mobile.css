@@ -1,0 +1,99 @@
+.banner {
+/* Rectangle: */
+  display: block;
+  position:absolute;
+  /*background-image: linear-gradient(315deg, #984ED8 0%, #694ED8 25%, #3826B0 100%);*/
+  padding: 20px 10px 60px 10px;
+  width: 100vw;
+  height: 100vh;
+  bottom: 0;
+  top: 0;
+  padding-bottom: 15%;
+  overflow: hidden;
+
+  background: linear-gradient(-315deg, #984ed8, #694ed8, #764ed8, #8e4ed8, #a04ed8, #b34ed8, #cb4ed8, #d84ecd);
+  background-size: 1600% 1600%;
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  -o-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+div#index-banner-id {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  opacity: 0.25;
+}
+
+.header-info h1 {
+  font-family: 'AkzidenzGroteskBE-Bold';
+  font-size: 46px;
+  color: #FFFFFF;
+  letter-spacing: 0.34px;
+  line-height: 46px;
+  user-select: none;
+}
+
+.header-info {
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 5%;
+}
+
+.header-info h4 {
+  font-family: 'AvenirNext-Thin', sans-serif;
+  font-size: 17px;
+  color: #FFFFFF;
+  user-select: none;
+  letter-spacing: 1.2px;
+}
+
+.header-info span {
+  color: #F8E71C;
+  font-family: 'AvenirNext-Regular', sans-serif;
+}
+
+.button-under-header {
+  position: relative;
+  bottom: 0;
+  width: 45%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 35px;
+  background-color: #F8E71C;
+  color: #000000;
+  text-align: center;
+}
+
+.button-under-header a {
+  text-align: center;
+  font-family: 'AvenirNext-Bold', sans-serif;
+  color: #000000;
+  font-size: 14px;
+  padding: 20px 20px;
+  letter-spacing: 1px;
+}
