@@ -1,9 +1,9 @@
 
 @font-face { font-family: 'AvenirNext-Regular'; src: url('../fonts/avenir-next-regular.ttf'); }
-@font-face { font-family: 'AvenirNext-Bold'; src: url('../fonts/avenir-next-bold.ttf'); }  
-@font-face { font-family: 'AvenirNext-Thin'; src: url('../fonts/avenir-next-thin.ttf'); } 
-@font-face { font-family: 'Avenir Next'; src: url('../fonts/avenir-next-regular.ttf'); } 
-@font-face { font-family: 'AkzidenzGroteskBE-Bold'; src: url('../fonts/akzidenzgroteskbe_bold-webfont.ttf'); } 
+@font-face { font-family: 'AvenirNext-Bold'; src: url('../fonts/avenir-next-bold.ttf'); }
+@font-face { font-family: 'AvenirNext-Thin'; src: url('../fonts/avenir-next-thin.ttf'); }
+@font-face { font-family: 'Avenir Next'; src: url('../fonts/avenir-next-regular.ttf'); }
+@font-face { font-family: 'AkzidenzGroteskBE-Bold'; src: url('../fonts/akzidenzgroteskbe_bold-webfont.ttf'); }
 /*@font-face { font-family: 'AkzidenzGroteskBE-Bold'; src: url('../fonts/FuturaPTBold.otf'); } */
 
 /* ==========================================================================
@@ -16,6 +16,7 @@ h1 {
   color: #FFFFFF;
   letter-spacing: 0.34px;
   line-height: 72px;
+  user-select: none;
 }
 
 h2, h3, h4, h5, h6, p, .navbar-nav a, .form-control, .list-inline, small, #pricing {
@@ -26,6 +27,7 @@ h4, .lead {/* I am a student at To: */
 	font-family: 'AvenirNext-Regular', sans-serif;
   font-size: 24px;
   color: #FFFFFF;
+  user-select: none;
 }
 
 .light-bg-text {
@@ -561,7 +563,7 @@ footer {
   transition: all 0.25s ease-in-out;
 }
 .pricing-table.active {
-  box-shadow: 0px 0px 12px rgba(41,46,50,0.6); 
+  box-shadow: 0px 0px 12px rgba(41,46,50,0.6);
   position: absolute;
   margin: auto;
   z-index: 200;
@@ -696,7 +698,7 @@ footer {
    Mobile styles
    ========================================================================== */
 /* Landscape phones and down */
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
 
 .btn-lg {
   font-size: 12.5px;
@@ -714,7 +716,7 @@ footer {
   letter-spacing: 0px;
 }
 
-#be-the-first { 
+#be-the-first {
       background-attachment: scroll;
   }
 
@@ -722,9 +724,9 @@ footer {
 
 
 /* Landscape phone to portrait tablet */
-@media (min-width: 481px) and (max-width: 767px) { 
+@media (min-width: 481px) and (max-width: 767px) {
 
-#be-the-first { 
+#be-the-first {
       background-attachment: scroll;
   }
 
@@ -734,10 +736,10 @@ footer {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 991px) {
 
-#be-the-first { 
+#be-the-first {
       background-attachment: scroll;
   }
-  
+
 }
 
 
@@ -746,13 +748,13 @@ footer {
 @media (min-width: 992px) and (max-width: 1199px) {
 
 }
-     
+
 
 
 /* Large screens ----------- */
 @media (min-width: 1200px) and (max-width: 3000px) {
 
-}   
+}
 
 
 /* media queries */
@@ -773,7 +775,7 @@ footer {
 }
 /* ipad portrait ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)  {
-	
+
 }
 /* ipad landscape ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)  {
@@ -782,12 +784,12 @@ footer {
 }
 /* small displays ----------- */
 @media only screen and (min-width : 600px)  {
-	
+
 }
 
 /* 13 inch displays ----------- */
 @media only screen and (min-width : 1224px)  {
-	
+
 }
 /* 24 inch iMac ----------- */
 @media only screen and (min-width : 1600px) {
@@ -912,6 +914,6 @@ body {
   width: auto !important;
 }
 
-
-
-
+img, p, h1, h2, h3, h4 {
+  user-select: none;
+}
