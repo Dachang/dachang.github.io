@@ -301,10 +301,38 @@ a:hover, a:focus {
 /* Rectangle: */
   display: block;
   position: relative;
-  background-image: linear-gradient(315deg, #984ED8 0%, #694ED8 25%, #3826B0 100%);
+  /*background-image: linear-gradient(315deg, #984ED8 0%, #694ED8 25%, #3826B0 100%);*/
   padding: 20px 10px 60px 10px;
   width: 100%;
   height: 640pt;
+
+  background: linear-gradient(-315deg, #984ed8, #694ed8, #764ed8, #8e4ed8, #a04ed8, #b34ed8, #cb4ed8, #d84ecd);
+  background-size: 1600% 1600%;
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  -o-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 .mobile-apps {
