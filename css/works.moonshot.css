@@ -69,6 +69,11 @@
     -o-background-size: cover; 
 }
 
+.motb-project-footer {
+    background: url(../img/moonshot-project-motb-bg.png) #231f20 no-repeat center center !important;
+    height: 642pt;
+}
+
 .moonshot-project-intro-constraint {
     padding-left: 48px;
     padding-right: 48px;
